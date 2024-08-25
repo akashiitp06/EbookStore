@@ -1,0 +1,185 @@
+﻿@{
+    ViewBag.Title = "Privacy Policy";
+}
+
+<style>
+    .privacy-header {
+        background: linear-gradient(45deg, #6a11cb, #2575fc);
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .privacy-header h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    .privacy-header p {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+        border-bottom: 2px solid #2575fc;
+        padding-bottom: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color: #6a11cb;
+    }
+
+    .privacy-content {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #fff;
+        background-color: #6a11cb;
+    }
+
+    .accordion-button {
+        font-weight: bold;
+    }
+
+    .contact-info {
+        background-color: #f7f7f7;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info p {
+        margin-bottom: 5px;
+    }
+</style>
+
+<div class="privacy-header">
+    <h1>Privacy Policy</h1>
+    <p>Effective Date: August 24, 2024</p>
+</div>
+
+<div class="container mt-5">
+    <div class="privacy-content">
+        <div class="accordion" id="privacyAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. Introduction
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#privacyAccordion">
+                    <div class="accordion-body">
+                        Welcome to Ebookstore. Your privacy is important to us. This privacy policy explains how we collect, use,
+                        and protect your personal information when you use our website.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. Information We Collect
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#privacyAccordion">
+                    <div class="accordion-body">
+                        We may collect the following types of information:
+                        <ul>
+                            <li><strong>Personal Information:</strong> Name, email address, billing and shipping address, payment information.</li>
+                            <li><strong>Usage Data:</strong> Information on how you use our website, including your IP address, browser type, and pages visited.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. How We Use Your Information
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#privacyAccordion">
+                    <div class="accordion-body">
+                        We use your information to:
+                        <ul>
+                            <li>Process transactions and manage your orders.</li>
+                            <li>Improve our website and services.</li>
+                            <li>Send promotional emails and updates (you can opt-out at any time).</li>
+                            <li>Comply with legal obligations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        4. Data Security
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#privacyAccordion">
+                    <div class="accordion-body">
+                        We implement security measures to protect your personal information from unauthorized access, alteration,
+                        disclosure, or destruction. However, no method of transmission over the internet is completely secure,
+                        and we cannot guarantee its absolute security.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        5. Cookies and Tracking Technologies
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#privacyAccordion">
+                    <div class="accordion-body">
+                        We use cookies and similar tracking technologies to enhance your experience on our website. You can choose
+                        to disable cookies through your browser settings, but this may affect your ability to use certain features of our site.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        6. Your Rights
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#privacyAccordion">
+                    <div class="accordion-body">
+                        You have the right to access, correct, or delete your personal information. You can also object to the
+                        processing of your data or request restrictions on how it is used.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        7. Changes to This Privacy Policy
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#privacyAccordion">
+                    <div class="accordion-body">
+                        We may update this privacy policy from time to time. We will notify you of any changes by posting the new
+                        policy on this page with the updated effective date.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        8. Contact Us
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#privacyAccordion">
+                    <div class="accordion-body">
+                        If you have any questions about this privacy policy, please contact us at:
+                        <div class="contact-info mt-3">
+                            <p><strong>Email:</strong> support@ebookstore.com</p>
+                            <p><strong>Address:</strong> 48 Ebookstore St, Patna city, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

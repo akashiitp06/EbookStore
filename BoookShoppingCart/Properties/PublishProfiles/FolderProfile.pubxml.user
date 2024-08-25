@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Project\Depoy_Cart</_PublishTargetUrl>
+    <History>True|2024-08-24T20:45:20.7962165Z||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=REALME-I5%3bDatabase=BookShoppingCart%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
